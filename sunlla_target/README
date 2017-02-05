@@ -1,0 +1,14 @@
+SUNLLA TARGET:
+	1. This part running on the target like perf/demo board
+	2. The source code composed of as follow:
+		a. "core" directory: framework code of sunlla testbench , contain transmit function, parse data format and basic network function
+		b. "test" directory: all the sunlla test code should be put in here
+		c. "xml" directory: client and server use mxml-2.10 as data format
+		d. "include" directory: contain sunlla test code xxxx.h
+	3. How to check/use this testbench working
+		a. cd sunlla_target
+		b. make clean
+		c. make
+		d. cp execute file named 'sunlla_testbench' to perf/demo board, and ./sunlla_testbench
+	4. How to add a sample test
+		refer to test/sunlla_i2c_test.c

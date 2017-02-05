@@ -1,0 +1,11 @@
+1. SUNLLA TESTBENCH:
+	1. sunlla testbench which can test module driver/application automatically via netework
+	2. "sunlla_host" directory: writen by python, as client to send command to test driver/appliction working in board
+	3. "sunlla_target" directory: writeb by C, as server to receive client command to excete some test code
+	4. host and target use XML protocol as data format, which easy parse and wrap for transmit
+
+2. How to add host python test?
+	Please refer to sunlla_host/README
+
+3. How to add target C test?
+	Please refer to sunlla_target/README

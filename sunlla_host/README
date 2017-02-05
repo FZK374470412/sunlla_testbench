@@ -1,0 +1,9 @@
+SUNLLA HOST:
+	1. This part running on the host like PC/work compile server which installedd python parser
+	2. How to check/use this testbench working
+		a. cd sunlla_host
+		b. export SUNLLA_IPADDR=192.168.XXX.XXX (tell host the ip address of target)
+		c. ./sunlla_i2c_test.py
+	3. How to add a sample test
+		refer to sunlla_i2c_test.py
+
