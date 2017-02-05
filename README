@@ -9,3 +9,48 @@
 
 3. How to add target C test?
 	Please refer to sunlla_target/README
+
+4. tree of sunlla_testbench
+	sunlla_testbench/
+	├── README
+	├── sunlla_host
+	│   ├── README
+	│   ├── sessionlib.py
+	│   └── sunlla_i2c_test.py
+	└── sunlla_target
+	    ├── core
+	    │   ├── sunlla_net.c
+	    │   ├── sunlla_net.h
+	    │   ├── sunlla_parse.c
+	    │   ├── sunlla_parse.h
+	    │   ├── sunlla_trans.c
+	    │   ├── sunlla_trans.h
+	    │   ├── sunlla_unify.c
+	    │   └── sunlla_unify.h
+	    ├── include
+	    │   ├── sunlla_all.h
+	    │   ├── sunlla_common.h
+	    │   ├── sunlla_i2c.h
+	    │   └── sunlla_i2s.h
+	    ├── Makefile
+	    ├── README
+	    ├── test
+	    │   ├── sunlla_i2c_test.c
+	    │   ├── sunlla_i2s_test.c
+	    │   └── sunlla_testbench.c
+	    └── xml
+		├── config.h
+		├── mxml-attr.c
+		├── mxml-entity.c
+		├── mxml-file.c
+		├── mxml-get.c
+		├── mxml.h
+		├── mxml-index.c
+		├── mxml-node.c
+		├── mxml-private.c
+		├── mxml-private.h
+		├── mxml-search.c
+		├── mxml-set.c
+		└── mxml-string.c
+
+	6 directories, 34 files
